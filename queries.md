@@ -1,0 +1,10 @@
+SELECT * from teamezinne2021;
+SELECT * FROM teamezinne2021 WHERE Department='Accounting';
+SELECT * FROM teamezinne2021 WHERE Status='Pending';
+SELECT Name FROM teamezinne2021 WHERE id<6;
+SELECT * FROM teamezinne2021 WHERE Age>18 AND Age<26;
+SELECT * FROM teamezinne2021 WHERE created_dt='2020-02-01';
+SELECT * FROM teamezinne2021 WHERE created_dt BETWEEN  '2020-04-01' AND '2020-06-01;
+UPDATE teamezinne2021 SET status='Activated' WHERE status='Pending'; 
+UPDATE teamezinne2021 SET name='TIMOTHY' WHERE name='TIM'; 
+ SELECT COUNT(*) FROM teamezinne2021 WHERE Department='Accounting';SELECT COUNT(*) FROM teamezinne2021 WHERE Department='Security';SELECT COUNT(*) FROM teamezinne2021 WHERE Department='management';SELECT COUNT(*) FROM teamezinne2021 WHERE Department='Engineering'; 
