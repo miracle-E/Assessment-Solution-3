@@ -1,5 +1,9 @@
-let count = 2;
-while (count < 20) {
-    console.log(count);
-    count +=2;
+
+function whileLoop() {
+    let count = 0;
+    while (count < 20) {
+        count +=2;
+        console.log(count);
+    }
 }
+whileLoop();
